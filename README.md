@@ -1,4 +1,4 @@
-# \[Group name\]
+# \[CDE\]
 
 **CDE**
 - Darja
