@@ -1,9 +1,9 @@
 # \[Group name\]
 
 **Group members:**
-- A
-- B
-- C
+- Darja
+- Eloise
+- Christian
 
 This repository contains  
 1. Inaugural project. 
