@@ -1,6 +1,6 @@
 # \[Group name\]
 
-**Group members:**
+**CDE**
 - Darja
 - Eloise
 - Christian
