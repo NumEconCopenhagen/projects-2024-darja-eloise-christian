@@ -18,7 +18,7 @@ class ExchangeEconomyClass:
         return (x1A**(par.alpha)*x2A**(1-par.alpha))
 
     def utility_B(self,x1B,x2B):
-        x1B**(par.beta)*x2B**(1-pae.beta)
+        return (x1B**(par.beta)*x2B**(1-pae.beta))
 
     def demand_A(self,p1):
         pass
