@@ -9,6 +9,7 @@ class ExchangeEconomyClass:
         # a. preferences
         par.alpha = 1/3
         par.beta = 2/3
+        par.p2 = 1
 
         # b. endowments
         par.w1A = 0.8
