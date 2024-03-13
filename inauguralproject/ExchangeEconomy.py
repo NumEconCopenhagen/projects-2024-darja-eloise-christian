@@ -21,10 +21,13 @@ class ExchangeEconomyClass:
         return x1B**(self.par.beta)*x2B**(1-self.par.beta)
 
     def demand_A(self,p1):
-        return self.par.alpha * (p1*self.par.w1A + self.par.w2A)/p1 + (1-self.par.alpha) * (p1*self.par.w1A + self.par.w2A)
-
+        demand_x1 =  self.par.alpha * (p1*self.par.w1A + self.par.w2A)/p1  
+        demand_x2 = (1-self.par.alpha) * (p1*self.par.w1A + self.par.w2A)
+        return demand_x1, demand_x2
     def demand_B(self,p1):
-        return self.par.beta * (p1* (1-self.par.w1A) + 1- self.par.w2A)/p1 + (1-self.par.beta) *(p1* (1-self.par.w1A) + (1-self.par.w2A))
+        demand_x1 = self.par.beta * (p1* (1-self.par.w1A) + 1- self.par.w2A)/p1 
+        demand_x2 = (1-self.par.beta) *(p1* (1-self.par.w1A) + (1-self.par.w2A))
+        return demand_x1, demand_x2
     
     # Check for Pareto improvements
     #def is_pareto_improvement(self, xA1, xA2, x1B, x2B):
