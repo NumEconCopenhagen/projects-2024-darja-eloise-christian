@@ -27,9 +27,9 @@ class ExchangeEconomyClass:
         return par.beta * (p1*par.w1B + par.w2B)/p1 + (1-par.beta) *(p1*par.w1B + par.w2B)
     
     # Check for Pareto improvements
-    def is_pareto_improvement(self, xA1, xA2, x1B, x2B):
-        return self.utility_A(self, xA1, xA2) >= self.utility_A(self,x1A = par.w1A, x2A = par.w2A) and\
-        self.utility_B(self, x1B, x2B) >= self.utility_B(self, x1B = 1-par.w1A, x2B = 1-par.w2A)
+    #def is_pareto_improvement(self, xA1, xA2, x1B, x2B):
+     #   return self.utility_A(self, xA1, xA2) >= self.utility_A(self,x1A = par.w1A, x2A = par.w2A) and\
+     #   self.utility_B(self, x1B, x2B) >= self.utility_B(self, x1B = 1-par.w1A, x2B = 1-par.w2A)
 
     def check_market_clearing(self,p1):
 
