@@ -47,4 +47,9 @@ class ExchangeEconomyClass:
 
         return eps1,eps2
 
+## negative utility function defined
+    
+    def negative_utility_A(self,x1A,x2A):
+        return -(x1A**(self.par.alpha)*x2A**(1-self.par.alpha))
+
     
