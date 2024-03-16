@@ -52,6 +52,7 @@ class ExchangeEconomyClass:
     def negative_utility_A(self,p1):
         x1 = 1 - (self.par.beta * (p1* (1-self.par.w1A) + 1- self.par.w2A)/p1)
         x2 = 1 - ((1-self.par.beta) *(p1* (1-self.par.w1A) + (1-self.par.w2A)))
-        return -(x1**(self.par.alpha)*x2**(1-self.par.alpha))
+        negative_utility = -(x1**(self.par.alpha)*x2**(1-self.par.alpha))
+        return x1, x2, negative_utility
 
     
