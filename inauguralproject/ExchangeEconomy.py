@@ -62,7 +62,7 @@ class ExchangeEconomyClass:
         return -(x1A**(self.par.alpha)*x2A**(1-self.par.alpha))
 
 
-    def aggregate_utility(self, x):
+    def aggregate_utility(self, x): ## for task 6b 
         xA1 = x[0]
         xA2 = x[1]
         return -(self.utility_A(xA1, xA2) + self.utility_B(1 - xA1, 1 - xA2))
