@@ -65,5 +65,5 @@ class ExchangeEconomyClass:
     def aggregate_utility(self,x):
         xA1 = x[0]
         xA2 = x[1]
-        return -(self.utility_A(self,xA1, xA2) + self.par.utility_B(self, 1 - xA1, 1 - xA2))
+        return -(self.utility_A(self,xA1, xA2) + self.utility_B(self, 1 - xA1, 1 - xA2))
     
