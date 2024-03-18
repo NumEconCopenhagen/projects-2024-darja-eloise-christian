@@ -61,4 +61,8 @@ class ExchangeEconomyClass:
         x2A = x[1]
         return -(x1A**(self.par.alpha)*x2A**(1-self.par.alpha))
 
+
+    def aggregate_utility(x):
+        xA1, xA2 = x
+        return -(utility_A(self,xA1, xA2) + model.utility_B(self, 1 - xA1, 1 - xA2))
     
