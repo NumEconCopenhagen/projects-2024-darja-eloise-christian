@@ -1,7 +1,7 @@
 # \[CDE\]
 
 **CDE**
-- Darja
+- Darja Baban (czs927)
 - Eloise
 - Christian
 
