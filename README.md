@@ -2,7 +2,6 @@
 
 **darja-christian**
 - Darja Baban (czs927)
-- Eloise
 - Christian
 
 This repository contains  
